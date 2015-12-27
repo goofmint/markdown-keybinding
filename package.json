@@ -1,12 +1,10 @@
 {
   "name": "markdown-keybinding",
   "main": "./lib/markdown-keybinding",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "markdown-keybinding:insert-image-tag",
     "atom-workspace": "markdown-keybinding:insert-link-tag"
   },
   "repository": "https://github.com/moongift/markdown-keybinding",
@@ -14,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-   "dependencies": {
-  }
+  "dependencies": {}
 }
