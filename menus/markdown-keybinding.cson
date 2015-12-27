@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Insert Markdown Image tag'
+      'command': 'markdown-keybinding:insert-image-tag'
+    },
+    {
+      'label': 'Insert Markdown Link tag'
+      'command': 'markdown-keybinding:insert-link-tag'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Markdown Keybinding'
+      'submenu': [
+        {
+          'label': 'Insert Image tag'
+          'command': 'markdown-keybinding:insert-image-tag'
+        },
+        {
+          'label': 'Insert Link tag'
+          'command': 'markdown-keybinding:insert-link-tag'
+        }
+      ]
+    ]
+  }
+]

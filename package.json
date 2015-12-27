@@ -1,0 +1,19 @@
+{
+  "name": "markdown-keybinding",
+  "main": "./lib/markdown-keybinding",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "markdown-keybinding:insert-image-tag",
+    "atom-workspace": "markdown-keybinding:insert-link-tag"
+  },
+  "repository": "https://github.com/atom/markdown-keybinding",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+   "dependencies": {
+  }
+}
